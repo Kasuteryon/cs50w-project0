@@ -13,3 +13,20 @@
 .navbar{
     background: linear-gradient(45deg, #330066, #330099, #3300CC);
 }
+
+.card{
+    border-radius: 10px;
+
+    #Home{
+        box-shadow: 5px 10px 10px #330066;
+    }
+
+    #Intro{
+        box-shadow: 5px 10px 10px #330099;
+    }
+
+    #Biblio{
+        box-shadow: 5px 10px 10px #3300CC;
+    }
+    
+}
