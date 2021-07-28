@@ -1,9 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
-*{
+$base-color: linear-gradient(#330066, #330099, #3300CC);
+
+html{
     font-family: 'Varela Round', sans-serif;
+    scroll-behavior: smooth;
 }
 
+body{
+    //1
+    //background: #16202A;
+
+    //2
+    //background: #13182C;
+
+
+    //Pack dobvle
+    //Card
+    background: #0D1427;
+    //Body
+    //background: #050B1A;
+
+    //Pack Three
+    //Card
+    //background: #304057;
+    //Body
+    //background: #182538;
+}
 
 svg{
     width:100%;
@@ -15,9 +38,9 @@ svg{
 ol > li{
     box-shadow: #330099 5px 5px, #3300CC 10px 10px;
     border-radius: 5px;
-    margin: 50px
+    margin: 50px;
+    
 }
-
 ol > li:hover{
     box-shadow: #330099 5px 5px, #3300CC 10px 10px, #3300FF 15px 15px, #3399FF  20px 20px;
     transition: 0.2s;
@@ -25,7 +48,7 @@ ol > li:hover{
 
 .holder{
     position:absolute;
-    top: 100px;
+    top: 150px;
     width:100%;
     display:flex;
     flex-direction:column;
@@ -69,17 +92,37 @@ p{
 }
 
 .navbar{
-    background: linear-gradient(45deg, #330066, #330099, #3300CC);
+    background: $base-color;
+    padding: 50px;
     
 }
 
 .card{
     border-radius: 20px;
+    border: none;
 
     // En blanco
-    //box-shadow: #3300CC 0px 50px 100px -20px, #330099 0px 30px 60px -30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
+    color:white;
+    background: #0D1427;;
     // A color
-    box-shadow: #330099 5px 5px, #3300CC 10px 10px, #3300FF 15px 15px, #3399FF  20px 20px;
+    //box-shadow: #330099 5px 5px, #3300CC 10px 10px, #3300FF 15px 15px, #3399FF  20px 20px;
+}
+
+.scrollup-button{
+    background: $base-color;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    color: white;
+    border: none;
+    position: absolute;
+}
+
+@media (prefers-reduced-motion: reduce){
+    html{
+        scroll-behavior: auto;
+    }
 }
 

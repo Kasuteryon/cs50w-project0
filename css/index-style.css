@@ -1,6 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
-* {
+html {
   font-family: 'Varela Round', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #0D1427;
 }
 
 svg {
@@ -25,7 +30,7 @@ ol > li:hover {
 
 .holder {
   position: absolute;
-  top: 100px;
+  top: 150px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -76,12 +81,34 @@ p {
 }
 
 .navbar {
-  background: linear-gradient(45deg, #330066, #330099, #3300CC);
+  background: -webkit-gradient(linear, left top, left bottom, from(#330066), color-stop(#330099), to(#3300CC));
+  background: linear-gradient(#330066, #330099, #3300CC);
+  padding: 50px;
 }
 
 .card {
   border-radius: 20px;
-  -webkit-box-shadow: #330099 5px 5px, #3300CC 10px 10px, #3300FF 15px 15px, #3399FF  20px 20px;
-          box-shadow: #330099 5px 5px, #3300CC 10px 10px, #3300FF 15px 15px, #3399FF  20px 20px;
+  border: none;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  color: white;
+  background: #0D1427;
+}
+
+.scrollup-button {
+  background: -webkit-gradient(linear, left top, left bottom, from(#330066), color-stop(#330099), to(#3300CC));
+  background: linear-gradient(#330066, #330099, #3300CC);
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  color: white;
+  border: none;
+  position: absolute;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
 }
 /*# sourceMappingURL=index-style.css.map */
