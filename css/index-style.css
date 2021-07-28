@@ -9,6 +9,20 @@ svg {
   z-index: -10;
 }
 
+ol > li {
+  -webkit-box-shadow: #330099 5px 5px, #3300CC 10px 10px;
+          box-shadow: #330099 5px 5px, #3300CC 10px 10px;
+  border-radius: 5px;
+  margin: 50px;
+}
+
+ol > li:hover {
+  -webkit-box-shadow: #330099 5px 5px, #3300CC 10px 10px, #3300FF 15px 15px, #3399FF  20px 20px;
+          box-shadow: #330099 5px 5px, #3300CC 10px 10px, #3300FF 15px 15px, #3399FF  20px 20px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
 .holder {
   position: absolute;
   top: 100px;
@@ -56,9 +70,9 @@ p {
 }
 
 .container {
-  margin-top: 30px;
+  margin-top: 60px;
   font-size: larger;
-  padding: 120px;
+  padding: 100px;
 }
 
 .navbar {
@@ -66,6 +80,8 @@ p {
 }
 
 .card {
-  border-radius: 10px;
+  border-radius: 20px;
+  -webkit-box-shadow: #330099 5px 5px, #3300CC 10px 10px, #3300FF 15px 15px, #3399FF  20px 20px;
+          box-shadow: #330099 5px 5px, #3300CC 10px 10px, #3300FF 15px 15px, #3399FF  20px 20px;
 }
 /*# sourceMappingURL=index-style.css.map */

@@ -12,6 +12,17 @@ svg{
     //background-image: linear-gradient(45deg, #330066, #330099, #3300CC);
 }
 
+ol > li{
+    box-shadow: #330099 5px 5px, #3300CC 10px 10px;
+    border-radius: 5px;
+    margin: 50px
+}
+
+ol > li:hover{
+    box-shadow: #330099 5px 5px, #3300CC 10px 10px, #3300FF 15px 15px, #3399FF  20px 20px;
+    transition: 0.2s;
+}
+
 .holder{
     position:absolute;
     top: 100px;
@@ -51,9 +62,10 @@ p{
 
 
 .container{
-    margin-top: 30px;
+    margin-top: 60px;
     font-size: larger;
-    padding: 120px;
+    padding: 100px;
+    
 }
 
 .navbar{
@@ -62,7 +74,12 @@ p{
 }
 
 .card{
-    border-radius: 10px;
+    border-radius: 20px;
 
+    // En blanco
+    //box-shadow: #3300CC 0px 50px 100px -20px, #330099 0px 30px 60px -30px;
+
+    // A color
+    box-shadow: #330099 5px 5px, #3300CC 10px 10px, #3300FF 15px 15px, #3399FF  20px 20px;
 }
 
