@@ -4,29 +4,65 @@
     font-family: 'Varela Round', sans-serif;
 }
 
+
+svg{
+    width:100%;
+    position:relative;
+    z-index: -10;
+    //background-image: linear-gradient(45deg, #330066, #330099, #3300CC);
+}
+
+.holder{
+    position:absolute;
+    top: 100px;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding: 0;
+    z-index: -1;
+  }
+.heading{
+    font-size:10px;
+    //font-weight:500;
+    margin:5px;
+    z-index:1;
+    width:100%;
+    color:#f5f6fa;
+    text-align:center;
+  }
+.tagline{
+    font-size: 15px;
+    font-weight: 200;
+    width: 100%;
+    color:#f5f6fa;
+    text-align:center;
+}
+
+p{
+    text-align: justify;
+}
+
+.img-thumbnail{
+    border: none;
+}
+
+
+
 .container{
     margin-top: 30px;
     font-size: larger;
-    padding: 150px;
+    padding: 120px;
 }
 
 .navbar{
     background: linear-gradient(45deg, #330066, #330099, #3300CC);
+    
 }
 
 .card{
     border-radius: 10px;
 
-    #Home{
-        box-shadow: 5px 10px 10px #330066;
-    }
-
-    #Intro{
-        box-shadow: 5px 10px 10px #330099;
-    }
-
-    #Biblio{
-        box-shadow: 5px 10px 10px #3300CC;
-    }
-    
 }
+
