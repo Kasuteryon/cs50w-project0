@@ -30,10 +30,16 @@ svg{
     border-radius: 5px;
     margin: 50px;
     padding: 20px;
+    text-align: center;
+    list-style: none;
     }
     li:hover{
         box-shadow: #330099 5px 5px, #3300CC 10px 10px, #3300FF 15px 15px, #3399FF  20px 20px;
         transition: 0.2s;
+    }
+
+    p{
+      font-size: 25px;
     }
     
 }
@@ -69,6 +75,7 @@ svg{
 
 p{
     text-align: justify;
+    
 }
 
 .img-thumbnail{
@@ -77,12 +84,6 @@ p{
 
 
 
-.container{
-    margin-top: 60px;
-    font-size: larger;
-    padding: 100px;
-    
-}
 
 .navbar{
     background: $base-color;
@@ -91,6 +92,10 @@ p{
 }
 
 .container{
+    margin-top: 60px;
+    font-size: larger;
+    padding: 100px;
+
     border-radius: 20px;
     border: none;
 
@@ -110,6 +115,9 @@ p{
     position: absolute;
     z-index: -10;
 }
+
+
+
 
 .scrollup-button{
     background: $body-color;
