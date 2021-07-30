@@ -5,7 +5,8 @@ html {
 }
 
 body {
-  background: #0D1427;
+  background: -webkit-gradient(linear, left top, left bottom, from(#EDF3FF), color-stop(#F0F5FF), to(#E6EFFF));
+  background: linear-gradient(#EDF3FF, #F0F5FF, #E6EFFF);
 }
 
 svg {
@@ -14,14 +15,15 @@ svg {
   z-index: -10;
 }
 
-ol > li {
-  -webkit-box-shadow: #330099 5px 5px, #3300CC 10px 10px;
-          box-shadow: #330099 5px 5px, #3300CC 10px 10px;
+#Home li {
+  -webkit-box-shadow: rgba(136, 172, 243, 0.25) 0px 10px 30px, rgba(0, 0, 0, 0.03) 0px 1px 1px, rgba(47, 62, 96, 0.01) 0px 10px 20px, rgba(76, 102, 148, 0.13) 0px 1px 3px;
+          box-shadow: rgba(136, 172, 243, 0.25) 0px 10px 30px, rgba(0, 0, 0, 0.03) 0px 1px 1px, rgba(47, 62, 96, 0.01) 0px 10px 20px, rgba(76, 102, 148, 0.13) 0px 1px 3px;
   border-radius: 5px;
   margin: 50px;
+  padding: 20px;
 }
 
-ol > li:hover {
+#Home li:hover {
   -webkit-box-shadow: #330099 5px 5px, #3300CC 10px 10px, #3300FF 15px 15px, #3399FF  20px 20px;
           box-shadow: #330099 5px 5px, #3300CC 10px 10px, #3300FF 15px 15px, #3399FF  20px 20px;
   -webkit-transition: 0.2s;
@@ -86,29 +88,75 @@ p {
   padding: 50px;
 }
 
-.card {
+.container {
   border-radius: 20px;
   border: none;
-  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  color: white;
-  background: #0D1427;
+  -webkit-box-shadow: rgba(136, 172, 243, 0.25) 0px 10px 30px, rgba(0, 0, 0, 0.03) 0px 1px 1px, rgba(47, 62, 96, 0.01) 0px 10px 20px, rgba(76, 102, 148, 0.13) 0px 1px 3px;
+          box-shadow: rgba(136, 172, 243, 0.25) 0px 10px 30px, rgba(0, 0, 0, 0.03) 0px 1px 1px, rgba(47, 62, 96, 0.01) 0px 10px 20px, rgba(76, 102, 148, 0.13) 0px 1px 3px;
+  color: black;
+  background: #f0f5ff;
+}
+
+.container > svg {
+  position: absolute;
+  z-index: -10;
 }
 
 .scrollup-button {
-  background: -webkit-gradient(linear, left top, left bottom, from(#330066), color-stop(#330099), to(#3300CC));
-  background: linear-gradient(#330066, #330099, #3300CC);
+  background: -webkit-gradient(linear, left top, left bottom, from(#EDF3FF), color-stop(#F0F5FF), to(#E6EFFF));
+  background: linear-gradient(#EDF3FF, #F0F5FF, #E6EFFF);
+  -webkit-box-shadow: rgba(136, 172, 243, 0.25) 0px 10px 30px, rgba(0, 0, 0, 0.03) 0px 1px 1px, rgba(47, 62, 96, 0.01) 0px 10px 20px, rgba(76, 102, 148, 0.13) 0px 1px 3px;
+          box-shadow: rgba(136, 172, 243, 0.25) 0px 10px 30px, rgba(0, 0, 0, 0.03) 0px 1px 1px, rgba(47, 62, 96, 0.01) 0px 10px 20px, rgba(76, 102, 148, 0.13) 0px 1px 3px;
   width: 50px;
   height: 50px;
   border-radius: 100px;
   color: white;
   border: none;
   position: absolute;
+  margin: 10px;
 }
 
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
   }
+}
+
+.animated {
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
 }
 /*# sourceMappingURL=index-style.css.map */
