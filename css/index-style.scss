@@ -5,7 +5,7 @@ $base-color: linear-gradient(#330066, #330099, #3300CC);
 $body-color: linear-gradient(#EDF3FF, #F0F5FF, #E6EFFF);
 $shadow: rgba(136, 172, 243, 0.25) 0px 10px 30px, rgba(0, 0, 0, 0.03) 0px 1px 1px,
          rgba(47, 62, 96, 0.01) 0px 10px 20px, rgba(76, 102, 148, 0.13) 0px 1px 3px;
-
+$shadow-color: #330099 0 0 5px 5px, #3300CC 10px 10px, #3300FF 15px 15px, #3399FF  20px 20px;
 html{
     font-family: 'Varela Round', sans-serif;
     scroll-behavior: smooth;
@@ -78,12 +78,19 @@ p{
     
 }
 
-.img-thumbnail{
+.img-me{
     border: none;
+    border-radius: 100px;
+    width: 204px;
+    height: 198px;
+    box-shadow: $shadow-color;
+    transition: 0.4s;
+    
 }
-
-
-
+.img-me:hover{
+  box-shadow: #3399FF 0 0 5px 5px, #3300FF 10px 10px, #3300CC 15px 15px, #330099 20px 20px;
+  transition: 0.4s;
+}
 
 .navbar{
     background: $base-color;

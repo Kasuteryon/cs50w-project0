@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index-style.css">
+    <link rel="stylesheet" href="css/scroll-animations.css">
     <title>Document</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <div class="container-fluid">
+        <div class="container-fluid space">
 
-          <a class="navbar-brand" href="#">Coder Tutos</a>
+          <a class="navbar-brand" href="#">Mobile Coder</a>
 
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -21,7 +22,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#Intro">Inicio</a>
+                <a class="nav-link active" aria-current="page" href="#Intro">Bienvenido</a>
               </li>
 
               <li class="nav-item">
@@ -29,11 +30,23 @@
               </li>
               
               <li class="nav-item">
-                <a class="nav-link" href="#Biblio">Biblioteca</a>
+                <a class="nav-link" href="#No1">¿Qué es?</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#Estats">Estadisticas</a>
+                <a class="nav-link" href="#No2">clasificación</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#No3">¿Cuáles son?</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#No4">Estadísticas</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#No5">Conclusión</a>
               </li>
             </ul>
           </div>
@@ -56,7 +69,7 @@
                Z" fill="url('#myGradient')" />
     </svg>
 
-    <div class="holder ">
+    <div class="holder">
       <div class="heading ">
         <h1>¿Quieres <b>programar</b> para teléfonos móviles?</h1>
         <br>
@@ -69,8 +82,27 @@
 
     <main>
 
-        <section id="Intro" class="container card">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis accusantium, cum non fuga repellendus animi aut, odio ullam nemo nam architecto officia incidunt voluptates aspernatur. Aut nostrum doloribus facere veritatis.</p>
+        <section id="Intro" class="container inline-content show-on-scroll">
+          
+          <div class="row">
+            <div class="col-6" >
+              <h1>Hola, ¿cómo estas?</h1>
+              <h1>mi nombre</h1>
+              <h1>es <b>Eduardo</b></h1>
+            </div>
+            
+            <div class="col-6">
+                <img class="img-me" src="/resources/EICC Foto Carnet Blank.png" alt="">
+            </div>
+          </div>
+          
+          <br>
+          <div class="row">
+            <h2>Soy programador junior y un gran <b>fanático</b> de la programación web y móvil.</h2>
+            <br>
+            <h2>Y te ayudaré, el día de hoy, a aclarar ciertas dudas sobre el mundo de la <b>programación móvil.</b></h2>
+          </div>
+
         </section>
       
         <section id="Home" class="container">
@@ -79,7 +111,7 @@
           <br>
           <p>Pero no te preocupes, en ésta guía responderemos todas tus inquietudes al igual que aprenderás:</p>
 
-          <ul>
+          <ol>
             <!--Explicar que SO aplican y como se orienta la programacion-->
             <li>Qué es la programación móvil.</li>
             <!--Orientadas y Multiplataforma principal
@@ -91,16 +123,28 @@
             <li>Estadísticas de las tecnologías en el mercado laboral</li>
             <!--Concluir segun lo que necesito cual es la mejor para mi-->
             <li>Cómo elegir la mejor tecnología para mi.</li>
-          </ul>
+          </ol>
 
         </section>
 
-        <section id="Biblio" class="container card">
+        <section id="No1" class="container">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci ab laborum porro in, aliquam natus tempore cupiditate possimus. Mollitia vel atque aut repellendus quis assumenda quod, delectus unde iure optio?</p>
         </section>
 
-        <section id="Estats" class="container card">
+        <section id="No2" class="container">
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea eveniet cupiditate, doloremque quam obcaecati enim nemo nesciunt ipsum. Commodi exercitationem obcaecati, architecto porro excepturi molestiae in debitis saepe placeat. Odio.</p>
+        </section>
+
+        <section id="No3" class="container">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea eveniet cupiditate, doloremque quam obcaecati enim nemo nesciunt ipsum. Commodi exercitationem obcaecati, architecto porro excepturi molestiae in debitis saepe placeat. Odio.</p>
+        </section>
+
+        <section id="No4" class="container">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea eveniet cupiditate, doloremque quam obcaecati enim nemo nesciunt ipsum. Commodi exercitationem obcaecati, architecto porro excepturi molestiae in debitis saepe placeat. Odio.</p>
+        </section>
+
+        <section id="No5" class="container">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea eveniet cupiditate, doloremque quam obcaecati enim nemo nesciunt ipsum. Commodi exercitationem obcaecati, architecto porro excepturi molestiae in debitis saepe placeat. Odio.</p>
         </section>
     </main>
 

@@ -78,8 +78,22 @@ p {
   text-align: justify;
 }
 
-.img-thumbnail {
+.img-me {
   border: none;
+  border-radius: 100px;
+  width: 204px;
+  height: 198px;
+  -webkit-box-shadow: #330099 0 0 5px 5px, #3300CC 10px 10px, #3300FF 15px 15px, #3399FF 20px 20px;
+          box-shadow: #330099 0 0 5px 5px, #3300CC 10px 10px, #3300FF 15px 15px, #3399FF 20px 20px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.img-me:hover {
+  -webkit-box-shadow: #3399FF 0 0 5px 5px, #3300FF 10px 10px, #3300CC 15px 15px, #330099 20px 20px;
+          box-shadow: #3399FF 0 0 5px 5px, #3300FF 10px 10px, #3300CC 15px 15px, #330099 20px 20px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .navbar {
