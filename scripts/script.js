@@ -29,24 +29,12 @@ const loop = () => {
 loop();
 
 // CODE FROM STACKOVERFLOW, siempre salvando nuestras vidas los panas :)
-/*const callback = (entries) => {
-    entries.forEach(entry => {
-      entry.target.classList.toggle("is-visible");
-    });
-  };
-  
-  const observer = new IntersectionObserver(callback);
-  
-  const targets = document.querySelectorAll(".show-on-scroll");
-  targets.forEach((target) => {
-    observer.observe(target);
-  });*/
   function isElementInViewport(el) {
     // special bonus for those using jQuery
     if (typeof jQuery === "function" && el instanceof jQuery) {
       el = el[0];
     }
-    var rect = el.getBoundingClientRect();
+    let rect = el.getBoundingClientRect();
     return (
       (rect.top <= 0
         && rect.bottom >= 0)
