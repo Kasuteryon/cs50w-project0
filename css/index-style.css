@@ -35,6 +35,22 @@ svg {
   text-decoration: none;
 }
 
+#Main ul > li {
+  -webkit-box-shadow: rgba(136, 172, 243, 0.25) 0px 10px 30px, rgba(0, 0, 0, 0.03) 0px 1px 1px, rgba(47, 62, 96, 0.01) 0px 10px 20px, rgba(76, 102, 148, 0.13) 0px 1px 3px;
+          box-shadow: rgba(136, 172, 243, 0.25) 0px 10px 30px, rgba(0, 0, 0, 0.03) 0px 1px 1px, rgba(47, 62, 96, 0.01) 0px 10px 20px, rgba(76, 102, 148, 0.13) 0px 1px 3px;
+  padding: 10px;
+  margin-top: 40px;
+  list-style: none;
+  text-align: center;
+}
+
+#Main ul > li:hover {
+  -webkit-box-shadow: #00CC66 0 0 5px 5px, #00CC99 10px 10px, #00CCCC 15px 15px, #00FFCC 20px 20px;
+          box-shadow: #00CC66 0 0 5px 5px, #00CC99 10px 10px, #00CCCC 15px 15px, #00FFCC 20px 20px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
 #Main #No1 h1 {
   -webkit-box-shadow: #330099 0 0 5px 5px, #3300CC 10px 10px, #3300FF 15px 15px, #3399FF 20px 20px;
           box-shadow: #330099 0 0 5px 5px, #3300CC 10px 10px, #3300FF 15px 15px, #3399FF 20px 20px;
@@ -181,22 +197,6 @@ p {
 .container > svg {
   position: absolute;
   z-index: -10;
-}
-
-ul > li {
-  -webkit-box-shadow: rgba(136, 172, 243, 0.25) 0px 10px 30px, rgba(0, 0, 0, 0.03) 0px 1px 1px, rgba(47, 62, 96, 0.01) 0px 10px 20px, rgba(76, 102, 148, 0.13) 0px 1px 3px;
-          box-shadow: rgba(136, 172, 243, 0.25) 0px 10px 30px, rgba(0, 0, 0, 0.03) 0px 1px 1px, rgba(47, 62, 96, 0.01) 0px 10px 20px, rgba(76, 102, 148, 0.13) 0px 1px 3px;
-  padding: 10px;
-  margin-top: 40px;
-  list-style: none;
-  text-align: center;
-}
-
-ul > li:hover {
-  -webkit-box-shadow: #00CC66 0 0 5px 5px, #00CC99 10px 10px, #00CCCC 15px 15px, #00FFCC 20px 20px;
-          box-shadow: #00CC66 0 0 5px 5px, #00CC99 10px 10px, #00CCCC 15px 15px, #00FFCC 20px 20px;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
 }
 
 .scrollup-button {
