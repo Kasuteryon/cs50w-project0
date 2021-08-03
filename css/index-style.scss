@@ -12,19 +12,19 @@ $gradient-blue-reverse: linear-gradient(to right, #3399FF, #3300FF, #3300CC, #33
 
 $gradient-pink: linear-gradient(to right, #FF3333, #FF3366, #FF3399, #FF66FF);
 $gradient-pink-reverse: linear-gradient(to right, #FF66FF, #FF3399, #FF3366, #FF3333);
-$shadow-pink: #FF3333 5px 5px, #FF3366 10px 10px, #FF3399 15px 15px, #FF66FF  20px 20px;
+$shadow-pink: #FF3333 0 0 5px 5px, #FF3366 10px 10px, #FF3399 15px 15px, #FF66FF  20px 20px;
 
-$gradient-green: linear-gradient(to right, #339933, #339900, #339966, #33CC66);
-$gradient-green-reverse: linear-gradient(to right, #33CC66, #339966, #339900, #339933);
-$shadow-green: #339933 5px 5px, #339900 10px 10px, #339966 15px 15px, #33CC66  20px 20px;
+$gradient-green: linear-gradient(to right, #006600 ,#339933, #00CC66, #33CC99);
+$gradient-green-reverse: linear-gradient(to right, #33CC99, #00CC66, #339933, #006600);
+$shadow-green: #006600 0 0 5px 5px, #339933 10px 10px, #33CC66 15px 15px, #33CC99  20px 20px;
 
-$gradient-orange: linear-gradient(to right, #FF6633, #FF9933, #FFCC33, #FFFF33);
-$gradient-orange-reverse: linear-gradient(to right, #FFFF33, #FFCC33, #FF9933, #FF6633);
-$shadow-orange: #FF6633 5px 5px, #FF9933 10px 10px, #FFCC33 15px 15px, #FFFF33  20px 20px;
+$gradient-orange: linear-gradient(to right, #FF6633, #FF9933, #FFCC33, #FFFF00);
+$gradient-orange-reverse: linear-gradient(to right, #FFFF00, #FFCC33, #FF9933, #FF6633);
+$shadow-orange: #FF6633 0 0 5px 5px, #FF9933 10px 10px, #FFCC33 15px 15px, #FFFF00  20px 20px;
 
-$gradient-mint: linear-gradient(to right, #00CC66, #00CC99, #00CCCC, #00FFCC);
-$gradient-mint-reverse: linear-gradient(to right, #00FFCC, #00CCCC, #00CC99, #00CC66);
-$shadow-mint: #00CC66 5px 5px, #00CC99 10px 10px, #00CCCC 15px 15px, #00FFCC  20px 20px;
+//$gradient-mint: linear-gradient(to right, #00CC66, #00CC99, #00CCCC, #00FFCC);
+//$gradient-mint-reverse: linear-gradient(to right, #00FFCC, #00CCCC, #00CC99, #00CC66);
+$shadow-mint: #00CC66 0 0 5px 5px, #00CC99 10px 10px, #00CCCC 15px 15px, #00FFCC  20px 20px;
 
 
 html{
@@ -84,26 +84,35 @@ svg{
         background: $gradient-pink-reverse;
       }
     }
-    #No1{
+    #No3{
       h1{
-        box-shadow: #330099 5px 5px, #3300CC 10px 10px, #3300FF 15px 15px, #3399FF  20px 20px;
+        box-shadow: $shadow-green;
+      }
+      .boton{
+        //transition: 1s;
+        background: $gradient-green;
+      }
+      .boton:hover{
+        background: $gradient-green-reverse;
       }
     }
-    #No1{
+    #No4{
       h1{
-        box-shadow: #330099 5px 5px, #3300CC 10px 10px, #3300FF 15px 15px, #3399FF  20px 20px;
+        box-shadow: $shadow-orange;
+      }
+      .boton{
+        //transition: 1s;
+        background: $gradient-orange;
+      }
+      .boton:hover{
+        background: $gradient-orange-reverse;
       }
     }
-    #No1{
+    #No5{
       h1{
-        box-shadow: #330099 5px 5px, #3300CC 10px 10px, #3300FF 15px 15px, #3399FF  20px 20px;
+        box-shadow: $shadow-mint;
       }
-    }
-    #No1{
-      h1{
-        box-shadow: #330099 5px 5px, #3300CC 10px 10px, #3300FF 15px 15px, #3399FF  20px 20px;
-      }
-    }
+  }
 }
 
 
@@ -200,9 +209,9 @@ p{
     margin: 10px;
 }
 
-@media (prefers-reduced-motion: reduce){
+ @media (prefers-reduced-motion: reduce){
     html{
-        scroll-behavior: auto;
+          scroll-behavior: auto;
     }
 }
 
