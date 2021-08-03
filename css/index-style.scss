@@ -6,6 +6,15 @@ $body-color: linear-gradient(#EDF3FF, #F0F5FF, #E6EFFF);
 $shadow: rgba(136, 172, 243, 0.25) 0px 10px 30px, rgba(0, 0, 0, 0.03) 0px 1px 1px,
          rgba(47, 62, 96, 0.01) 0px 10px 20px, rgba(76, 102, 148, 0.13) 0px 1px 3px;
 $shadow-color: #330099 0 0 5px 5px, #3300CC 10px 10px, #3300FF 15px 15px, #3399FF  20px 20px;
+
+$gradient-blue: linear-gradient(to right, #330099,#3300CC, #3300FF, #3399FF);
+$gradient-blue-reverse: linear-gradient(to right, #3399FF, #3300FF, #3300CC, #330099);
+
+$gradient-pink: linear-gradient(to right, #FF3333, #FF3366, #FF3399, #FF66FF);
+$gradient-pink-reverse: linear-gradient(to right, #FF66FF, #FF3399, #FF3366, #FF3333);
+$shadow-pink: #FF3333 5px 5px, #FF3366 10px 10px, #FF3399 15px 15px, #FF66FF  20px 20px;
+
+
 html{
     font-family: 'Varela Round', sans-serif;
     scroll-behavior: smooth;
@@ -24,24 +33,65 @@ svg{
     //background-image: linear-gradient(45deg, #330066, #330099, #3300CC);
 }
 
-#Home{
-    li{
-    box-shadow: $shadow;
+#Main{
+    h1{
     border-radius: 5px;
     margin: 50px;
     padding: 20px;
     text-align: center;
-    list-style: none;
     }
-    li:hover{
-        box-shadow: #330099 5px 5px, #3300CC 10px 10px, #3300FF 15px 15px, #3399FF  20px 20px;
-        transition: 0.2s;
+    .boton{
+      border: none;
+      border-radius: 10px;
+      color: white;
+      text-decoration: none;
     }
 
-    p{
-      font-size: 25px;
+    #No1{
+      h1{
+        box-shadow: $shadow-color;
+      }
+      .boton{
+        //transition: 1s;
+        background: $gradient-blue;
+      }
+      .boton:hover{
+        background: $gradient-blue-reverse;
+      }
+      
     }
-    
+    #No2{
+      h1{
+        box-shadow: $shadow-pink;
+      }
+      .boton{
+        //transition: 1s;
+        background: $gradient-pink;
+      }
+      .boton:hover{
+        background: $gradient-pink-reverse;
+      }
+    }
+    #No1{
+      h1{
+        box-shadow: #330099 5px 5px, #3300CC 10px 10px, #3300FF 15px 15px, #3399FF  20px 20px;
+      }
+    }
+    #No1{
+      h1{
+        box-shadow: #330099 5px 5px, #3300CC 10px 10px, #3300FF 15px 15px, #3399FF  20px 20px;
+      }
+    }
+    #No1{
+      h1{
+        box-shadow: #330099 5px 5px, #3300CC 10px 10px, #3300FF 15px 15px, #3399FF  20px 20px;
+      }
+    }
+    #No1{
+      h1{
+        box-shadow: #330099 5px 5px, #3300CC 10px 10px, #3300FF 15px 15px, #3399FF  20px 20px;
+      }
+    }
 }
 
 
@@ -84,12 +134,12 @@ p{
     width: 204px;
     height: 198px;
     box-shadow: $shadow-color;
-    transition: 0.4s;
+    transition: 1s;
     
 }
 .img-me:hover{
   box-shadow: #3399FF 0 0 5px 5px, #3300FF 10px 10px, #3300CC 15px 15px, #330099 20px 20px;
-  transition: 0.4s;
+  transition: 1s;
 }
 
 .navbar{
@@ -144,43 +194,3 @@ p{
     }
 }
 
-// Animaciones CSS
-.animated {
-    -webkit-animation-duration: 0.3s;
-    animation-duration: 0.3s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-  }
-  
-  @-webkit-keyframes fadeInDown {
-    from {
-      opacity: 0;
-      -webkit-transform: translate3d(0, -100%, 0);
-      transform: translate3d(0, -100%, 0);
-    }
-  
-    to {
-      opacity: 1;
-      -webkit-transform: translate3d(0, 0, 0);
-      transform: translate3d(0, 0, 0);
-    }
-  }
-  
-  @keyframes fadeInDown {
-    from {
-      opacity: 0;
-      -webkit-transform: translate3d(0, -100%, 0);
-      transform: translate3d(0, -100%, 0);
-    }
-  
-    to {
-      opacity: 1;
-      -webkit-transform: translate3d(0, 0, 0);
-      transform: translate3d(0, 0, 0);
-    }
-  }
-  
-  .fadeInDown {
-    -webkit-animation-name: fadeInDown;
-    animation-name: fadeInDown;
-  }
