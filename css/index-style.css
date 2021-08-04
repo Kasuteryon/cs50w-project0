@@ -213,9 +213,8 @@ p {
 }
 
 .navbar {
-  background: -webkit-gradient(linear, left top, left bottom, from(#330066), color-stop(#330099), to(#3300CC));
-  background: linear-gradient(#330066, #330099, #3300CC);
-  padding: 50px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#330066), color-stop(#330099), to(#3300CC)) !important;
+  background: linear-gradient(#330066, #330099, #3300CC) !important;
 }
 
 .container {
@@ -247,6 +246,14 @@ p {
   border: none;
   position: absolute;
   margin: 10px;
+}
+
+.nav-link:hover {
+  border: 2px dashed white;
+  border-radius: 5px;
+  padding: 0.03em 0.25em;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
 }
 
 @media (prefers-reduced-motion: reduce) {

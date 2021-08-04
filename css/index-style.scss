@@ -217,8 +217,8 @@ p{
 }
 
 .navbar{
-    background: $base-color;
-    padding: 50px;
+    background: $base-color !important;
+    //padding: 10px;
     
 }
 
@@ -258,6 +258,14 @@ p{
     border: none;
     position: absolute;
     margin: 10px;
+}
+
+.nav-link:hover{
+  //text-decoration-line: underline;
+  border:2px dashed white;  
+  border-radius: 5px;
+  padding:0.03em 0.25em;
+  transition: 0.1s;
 }
 
  @media (prefers-reduced-motion: reduce){
