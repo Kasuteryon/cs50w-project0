@@ -251,7 +251,6 @@ p {
 .nav-link:hover {
   border: 2px dashed white;
   border-radius: 5px;
-  padding: 0.03em 0.25em;
   -webkit-transition: 0.1s;
   transition: 0.1s;
 }
