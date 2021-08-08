@@ -306,22 +306,6 @@ p{
     //box-shadow: #330099 5px 5px, #3300CC 10px 10px, #3300FF 15px 15px, #3399FF  20px 20px;
 }
 
-.card{
-  box-shadow: $shadow;
-  color:black;
-  background: #f0f5ff;
-  border: none;
-  margin-right: 20px;
-  border-radius: 20px !important;
-}
-.card-img-top{
-  border-start-start-radius: 20px !important;
-  border-start-end-radius: 20px !important;
-}
-.card-group{
-  padding: 100px;
-}
-
 .scrollup-button{
     background: $body-color;
     box-shadow: $shadow;
