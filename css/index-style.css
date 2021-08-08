@@ -32,9 +32,9 @@ html {
   background-size: cover;
 }
 
-.section4.back {
+.section4-back {
   background-color: #f0f5ff;
-  background-image: url(../resources/SeccionVI.svg);
+  background-image: url(../resources/SeccionIV.svg);
   background-attachment: fixed;
   background-size: cover;
 }
@@ -148,38 +148,6 @@ h1, h2, h3, h4, h5 {
 #Main #No5 h1 {
   -webkit-box-shadow: #330099 0 0 5px 5px, #3300CC 10px 10px, #3300FF 15px 15px, #3399FF 20px 20px;
           box-shadow: #330099 0 0 5px 5px, #3300CC 10px 10px, #3300FF 15px 15px, #3399FF 20px 20px;
-}
-
-#Navegacion a {
-  border: none;
-  border-radius: 10px;
-  color: white;
-  text-decoration: none;
-}
-
-#Navegacion #Init {
-  background: -webkit-gradient(linear, left top, right top, from(#330099), color-stop(#3300CC), color-stop(#3300FF), to(#3399FF));
-  background: linear-gradient(to right, #330099, #3300CC, #3300FF, #3399FF);
-}
-
-#Navegacion #Seccion1 {
-  background: -webkit-gradient(linear, left top, right top, from(#00CC66), color-stop(#00CC99), color-stop(#00CCCC), to(#00FFCC));
-  background: linear-gradient(to right, #00CC66, #00CC99, #00CCCC, #00FFCC);
-}
-
-#Navegacion #Seccion2 {
-  background: -webkit-gradient(linear, left top, right top, from(#FF3333), color-stop(#FF3366), color-stop(#FF3399), to(#FF66FF));
-  background: linear-gradient(to right, #FF3333, #FF3366, #FF3399, #FF66FF);
-}
-
-#Navegacion #Seccion3 {
-  background: -webkit-gradient(linear, left top, right top, from(#006600), color-stop(#339933), color-stop(#00CC66), to(#33CC99));
-  background: linear-gradient(to right, #006600, #339933, #00CC66, #33CC99);
-}
-
-#Navegacion #Seccion4 {
-  background: -webkit-gradient(linear, left top, right top, from(#FF6633), color-stop(#FF9933), color-stop(#FFCC33), to(#FFFF00));
-  background: linear-gradient(to right, #FF6633, #FF9933, #FFCC33, #FFFF00);
 }
 
 .shadow .blue {
