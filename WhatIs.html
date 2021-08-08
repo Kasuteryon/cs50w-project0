@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index-style.css">
     <link rel="stylesheet" href="css/scroll-animations.css">
+    <link rel="stylesheet" href="./css/sections-style.css">
 
     <title>Sección I: ¿Qué es?</title>
 </head>
@@ -44,46 +45,87 @@
           <br>
           <br>
           <h4>De ahora en adeltante S.O</h4>
-          <br>
-            <p>
-                Un sistema operativo es un conjunto de programas que permite manejar la memoria, disco, medios de almacenamiento de información y los diferentes periféricos o recursos de nuestra computadora, como son el teclado, el mouse, la impresora, la placa de red, entre otros.
-            </p>
-            <p>
-                Los periféricos utilizan un driver o controlador y son desarrollados por los fabricantes de cada equipo. Encontramos diferentes sistemas operativos como Windows, Linux, MAS OS, en sus diferentes versiones. También los teléfonos y tablets poseen un sistema operativo.
-            </p>
-            <p>
-                Dentro de las tareas que realiza el sistema operativo, en particular, se ocupa de gestionar la memoria de nuestro sistema y la carga de los diferentes programas, para ello cada programa tiene una prioridad o jerarquía y en función de la misma contará con los recursos de nuestro sistema por más tiempo que un programa de menor prioridad.
-            </p>
       </section>
 
-      <section id="EjemploSO" class="container">
-        <h1>El día de hoy, los SO móviles mas predominantes son:</h1>
-        <br>
-        <div class="row">
-            <div class="col-6">
-                <div class="text-center">
-                    <img class="img-an" src="https://www.welivesecurity.com/wp-content/uploads/es-la/2012/12/Logo-Android.png" alt="">
-                </div>
-                <br>
-                <br>
-                <h3>Android</h3>
+      <section class="card-group">
+        <div class="card">
+          <div class="row no-gutters">
+            <div class="col-md-6">
+              <img src="./resources/os.png" alt="Apps Híbridas" class="card-img-top rounded-left">
             </div>
-            <div class="col-6">
-                <div class="text-center">
-                    <img class="img-ap" src="https://www.apple.com/ac/structured-data/images/knowledge_graph_logo.png?202107011518" alt="">
-                </div>
-                <br>
-                <br>
-                <h3>iOS</h3>
+            <div class="col-md-6">
+              <div class="card-body">
+                <p>
+                  Un sistema operativo es un conjunto de programas que permite manejar la memoria, disco, medios de almacenamiento de información y los diferentes periféricos o recursos de nuestra computadora, como son el teclado, el mouse, la impresora, la placa de red, entre otros.
+              </p>
+              <p>
+                  Los periféricos utilizan un driver o controlador y son desarrollados por los fabricantes de cada equipo. Encontramos diferentes sistemas operativos como Windows, Linux, MAS OS, en sus diferentes versiones. También los teléfonos y tablets poseen un sistema operativo.
+              </p>
+              <p>
+                  Dentro de las tareas que realiza el sistema operativo, en particular, se ocupa de gestionar la memoria de nuestro sistema y la carga de los diferentes programas, para ello cada programa tiene una prioridad o jerarquía y en función de la misma contará con los recursos de nuestro sistema por más tiempo que un programa de menor prioridad.
+              </p>
             </div>
+            </div>
+          </div>
         </div>
       </section>
 
       <section id="EjemploSO" class="container">
-        <h1>Usamos:</h1>
-        <p>
-          Este auge tan importante de los dispositivos móviles es el escenario también de una batalla que se libra en diversos sentidos, pues los fabricantes de estos dispositivos compiten (en aspectos que van desde la innovación, hasta la legalidad) por tener una mayor en el mercado con sus productos. Así, este auge de los dispositivos móviles es también el escenario perfecto para el surgimiento de cada vez más y más aplicaciones orientadas a estos dispositivos y que tienen como ﬁnalidad satisfacer las necesidades del mundo moderno, como se había mencionado anteriormente. El desarrollo móvil es la actividad encaminada a la creación de aplicaciones o programas para dispositivos como los Smartphones y las Tablets, entre otros.
-        </p>
+        <h1>El día de hoy, los SO móviles mas predominantes son:</h1>
+      </section>
+
+      <section class="card-group">
+        <div class="card">
+            <img src="./resources/Android.png" alt="Android" class="card-img-top rounded-top">
+            <div class="card-body">
+                <h5 class="card-title">Android</h5>
+                <p class="card-text">
+                  Son aquellas aplicaciones que se concentran en la utilizacion de los recursos nativos del dispositivo móvil tales como 
+                  juegos, aplicaciones del sistema a través de las APIs nativas del SO como el uso de la cámara, sensores como el giroscopio,
+                  el almacenamiento interno del dispositivo, etc.
+                </p>
+
+                <p class="card-text">
+                  Las tecnologías para el desarrollo nativo estan orientadas exclusivamente a un sistema operativo en específico.
+                </p>
+            </div>
+        </div>
+        
+        <div class="card">
+            <img src="./resources/Apple.png" alt="Apple" class="card-img-top rounded-top">
+            <div class="card-body">
+                <h5 class="card-title">Apple</h5>
+                <p class="card-text">
+                  Son aquellas aplicaciones que utilizan al mínimo los recursos nativos del dispositivo pues sus servicios principales
+                  están basados en Internet, pues de ahí se consume el contenido principal del app y de manera local solo se almacenan permisos
+                  del uso de internet, al igual que el almacenamiento de tokens de identificación y almacenamiento opcional.
+                </p>
+            </div>
+        </div>
+      </section>
+
+      <section class="card-group">
+        <div class="card">
+          <div class="row no-gutters">
+            
+            <div class="col-md-6">
+              <div class="card-body">
+                <p class="card-text">
+                  Este auge tan importante de los dispositivos móviles es el escenario también de una batalla que se libra en diversos sentidos, pues los fabricantes de estos dispositivos compiten (en aspectos que van desde la innovación, hasta la legalidad) por tener una mayor en el mercado con sus productos. 
+                </p>
+                <p class="card-text">
+                  Así, este auge de los dispositivos móviles es también el escenario perfecto para el surgimiento de cada vez más y más aplicaciones orientadas a estos dispositivos y que tienen como ﬁnalidad satisfacer las necesidades del mundo moderno, como se había mencionado anteriormente. 
+                </p>
+                <p>
+                  El desarrollo móvil es la actividad encaminada a la creación de aplicaciones o programas para dispositivos como los Smartphones y las Tablets, entre otros.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <img src="./resources/tablet-android.png" alt="Apps Híbridas">
+            </div>
+          </div>
         </div>
       </section>
 
@@ -99,6 +141,7 @@
           </div>
         </div>
       </section>
+
       <footer class="container-fluid">
 
         <div class="text-center text-md-start mt-5">
