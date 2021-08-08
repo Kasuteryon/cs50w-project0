@@ -253,33 +253,6 @@ p{
   transition: 1s;
 }
 
-.img-an{
-  border: none;
-  border-radius: 100px;
-  width: 204px;
-  height: 198px;
-  box-shadow: $shadow-mint;
-  //transition: 1s;
-  
-}
-.img-an:hover{
-  box-shadow: #00FFCC 0 0 5px 5px, #00CCCC 10px 10px, #00CC99 15px 15px, #00CC66 20px 20px;
-  transition: 1s;
-}
-.img-ap{
-  border: none;
-  border-radius: 100px;
-  width: 200px;
-  height: 200px;
-  box-shadow: $shadow-orange;
-  //transition: 1s;
-}
-.img-ap:hover{
-  
-  box-shadow: #FFFF00 0 0 5px 5px, #FFCC33 10px 10px, #FF9933 15px 15px, #FF6633 20px 20px;
-  transition: 1s;
-}
-
 .navbar{
     background: $base-color !important;
     //padding: 10px;

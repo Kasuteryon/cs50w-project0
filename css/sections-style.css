@@ -265,38 +265,6 @@ p {
   transition: 1s;
 }
 
-.img-an {
-  border: none;
-  border-radius: 100px;
-  width: 204px;
-  height: 198px;
-  -webkit-box-shadow: #00CC66 0 0 5px 5px, #00CC99 10px 10px, #00CCCC 15px 15px, #00FFCC 20px 20px;
-          box-shadow: #00CC66 0 0 5px 5px, #00CC99 10px 10px, #00CCCC 15px 15px, #00FFCC 20px 20px;
-}
-
-.img-an:hover {
-  -webkit-box-shadow: #00FFCC 0 0 5px 5px, #00CCCC 10px 10px, #00CC99 15px 15px, #00CC66 20px 20px;
-          box-shadow: #00FFCC 0 0 5px 5px, #00CCCC 10px 10px, #00CC99 15px 15px, #00CC66 20px 20px;
-  -webkit-transition: 1s;
-  transition: 1s;
-}
-
-.img-ap {
-  border: none;
-  border-radius: 100px;
-  width: 200px;
-  height: 200px;
-  -webkit-box-shadow: #FF6633 0 0 5px 5px, #FF9933 10px 10px, #FFCC33 15px 15px, #FFFF00 20px 20px;
-          box-shadow: #FF6633 0 0 5px 5px, #FF9933 10px 10px, #FFCC33 15px 15px, #FFFF00 20px 20px;
-}
-
-.img-ap:hover {
-  -webkit-box-shadow: #FFFF00 0 0 5px 5px, #FFCC33 10px 10px, #FF9933 15px 15px, #FF6633 20px 20px;
-          box-shadow: #FFFF00 0 0 5px 5px, #FFCC33 10px 10px, #FF9933 15px 15px, #FF6633 20px 20px;
-  -webkit-transition: 1s;
-  transition: 1s;
-}
-
 .navbar {
   background: -webkit-gradient(linear, left top, left bottom, from(#330066), color-stop(#330099), to(#3300CC)) !important;
   background: linear-gradient(#330066, #330099, #3300CC) !important;
@@ -359,6 +327,11 @@ p {
 .rounded-left {
   border-top-left-radius: 20px !important;
   border-bottom-left-radius: 20px !important;
+}
+
+.rounded-right {
+  border-top-right-radius: 20px !important;
+  border-bottom-right-radius: 20px !important;
 }
 
 .card-group {
