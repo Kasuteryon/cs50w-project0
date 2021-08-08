@@ -141,6 +141,46 @@ h1, h2, h3, h4, h5{
   }
 }
 
+#Navegacion{
+  a{
+    border: none;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+  }
+  #Init{
+    background: $gradient-blue;
+  }
+  #Seccion1{
+    background: $gradient-mint;
+  }
+  #Seccion2{
+    background: $gradient-pink;
+  }
+  #Seccion3{
+    background: $gradient-green;
+  }
+  #Seccion4{
+    background: $gradient-orange;
+  }
+}
+.shadow{
+  .blue{
+    box-shadow: $shadow-color;
+  }
+  .mint{
+    box-shadow: $shadow-mint;
+  }
+  .pink{
+    box-shadow: $shadow-pink;
+  }
+  .orange{
+    box-shadow: $shadow-orange;
+  }
+  .green{
+    box-shadow: $shadow-green;
+  }
+}
 
 .holder{
     position:absolute;
