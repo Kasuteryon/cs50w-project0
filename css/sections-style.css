@@ -32,9 +32,9 @@ html {
   background-size: cover;
 }
 
-.section4.back {
+.section4-back {
   background-color: #f0f5ff;
-  background-image: url(../resources/SeccionVI.svg);
+  background-image: url(../resources/SeccionIV.svg);
   background-attachment: fixed;
   background-size: cover;
 }
