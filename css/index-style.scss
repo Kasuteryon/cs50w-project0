@@ -230,9 +230,21 @@ p{
 }
 
 .navbar{
+    //transition: 0.1s;
     background: $base-color !important;
     //padding: 10px;
-    
+}
+
+.fixed-bottom{
+  transition: 1s;
+  border-radius: 50px;
+  background: $gradient-blue !important;
+  box-shadow: $shadow;
+  
+  img{
+    display: none;
+  }
+  margin: 30px;
 }
 
 .container{
