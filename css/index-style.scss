@@ -293,3 +293,29 @@ p{
     }
 }
 
+@media only screen and (max-width: 800px) {
+  .container{
+    padding: 25px;
+    margin: 10px;
+    width: 90%;
+
+    h1{
+      margin: 20px !important;
+      font-size: 35px;
+    }
+    h2{
+      font-size: 30px;
+    }
+    h3{
+      font-size: large;
+    }
+    h4{
+      font-size: large;
+    }
+  }
+
+  .card-group{
+    padding: 5px !important;
+  }
+  
+}

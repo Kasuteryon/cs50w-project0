@@ -238,6 +238,21 @@ p {
   background: linear-gradient(#330066, #330099, #3300CC) !important;
 }
 
+.fixed-bottom {
+  -webkit-transition: 1s;
+  transition: 1s;
+  border-radius: 50px;
+  background: -webkit-gradient(linear, left top, right top, from(#330099), color-stop(#3300CC), color-stop(#3300FF), to(#3399FF)) !important;
+  background: linear-gradient(to right, #330099, #3300CC, #3300FF, #3399FF) !important;
+  -webkit-box-shadow: rgba(136, 172, 243, 0.25) 0px 10px 30px, rgba(0, 0, 0, 0.03) 0px 1px 1px, rgba(47, 62, 96, 0.01) 0px 10px 20px, rgba(76, 102, 148, 0.13) 0px 1px 3px;
+          box-shadow: rgba(136, 172, 243, 0.25) 0px 10px 30px, rgba(0, 0, 0, 0.03) 0px 1px 1px, rgba(47, 62, 96, 0.01) 0px 10px 20px, rgba(76, 102, 148, 0.13) 0px 1px 3px;
+  margin: 30px;
+}
+
+.fixed-bottom img {
+  display: none;
+}
+
 .container {
   margin-top: 60px;
   font-size: larger;
@@ -274,6 +289,24 @@ p {
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .container {
+    padding: 10px;
+    margin: 10px;
+    width: 90%;
+  }
+  .move {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .card-group {
+    padding: 5px !important;
   }
 }
 
