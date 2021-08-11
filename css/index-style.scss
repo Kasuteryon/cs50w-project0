@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Google+Sans');
 
 $base-color: linear-gradient(#330066, #330099, #3300CC);
 $body-color: linear-gradient(#EDF3FF, #F0F5FF, #E6EFFF);
@@ -28,9 +29,13 @@ $shadow-mint: #00CC66 0 0 5px 5px, #00CC99 10px 10px, #00CCCC 15px 15px, #00FFCC
 
 
 html{
-    //font-family: 'Varela Round', sans-serif;
-    font-family: 'Rubik', sans-serif !important;
+    font-family: 'Google Sans' !important;
+    
     scroll-behavior: smooth;
+}
+body{
+  //font-family: Product Sans Regular !important;
+  font-family: 'Google Sans' !important
 }
 
 .index-back{
