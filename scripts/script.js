@@ -1,17 +1,18 @@
-// SWCROL NAVBAR
+// SCROLL CHANGE NAVBAR
 window.addEventListener('scroll', () =>{
   let nav = document.querySelector('nav');
 
   if (window.scrollY > 300)
   {
     nav.classList.remove('sticky-top');
+    nav.classList.remove('medium-nav');
     //nav.classList.remove('navbar-dark');
    // nav.classList.add('navbar-light');
     nav.classList.add('fixed-bottom');
   }else{
     nav.classList.remove('fixed-bottom');
+    
     nav.classList.add('sticky-top');
-    //nav.classList.add('navbar-dark');
   }
   
 });

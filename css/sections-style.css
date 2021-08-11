@@ -294,16 +294,22 @@ p {
 
 @media only screen and (max-width: 800px) {
   .container {
-    padding: 10px;
+    padding: 25px;
     margin: 10px;
     width: 90%;
   }
-  .move {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+  .container h1 {
+    margin: 20px !important;
+    font-size: 35px;
+  }
+  .container h2 {
+    font-size: 30px;
+  }
+  .container h3 {
+    font-size: large;
+  }
+  .container h4 {
+    font-size: large;
   }
   .card-group {
     padding: 5px !important;
