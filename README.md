@@ -10,15 +10,15 @@ Curly Coder Blog es mi propuesta de Project 0 para WEB50Xni. Se trata de un blog
 ### A nivel de código, está estructurado por las siguientes páginas estáticas según su nombre HTML5:
 
 1. Index.html
-  * *Página principal que funciona como HomePage para el blog
+  * Página principal que funciona como HomePage para el blog
 2. WhatIs.html
-  * *Pagina que explica conceptos básicos del tema del blog, primer sección que puede ser redirigida desde Index.html
+  * Pagina que explica conceptos básicos del tema del blog, primer sección que puede ser redirigida desde Index.html
 3. Clasification.html
-  * *Pagina que especifica la clasificación de la programación móvil, segunda sección que puede ser redirigida desde Index y desde WhatIS.html
+  * Pagina que especifica la clasificación de la programación móvil, segunda sección que puede ser redirigida desde Index y desde WhatIS.html
 4. Pop.html
-  * *Pagina que lista las tecnologías mas populares de programación móvil, tercer sección que puede ser redirigida desde Index y desde Clasification.html
+  * Pagina que lista las tecnologías mas populares de programación móvil, tercer sección que puede ser redirigida desde Index y desde Clasification.html
 5. Stats.html
-  * *Pagina que demuestra según datos de Statista, que tecnologías son las mas usadas, cuarta sección que puede ser redirigida desde Index y desde Pop.html
+  * Pagina que demuestra según datos de Statista, que tecnologías son las mas usadas, cuarta sección que puede ser redirigida desde Index y desde Pop.html
 
 ### Estos códigos html consumen los estilos desde 3 hojas SCSS procesadas posteriormente a CSS las cuales son:
 1. Index-style.scss 
