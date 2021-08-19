@@ -1,33 +1,6 @@
 @import "index-style.scss";
 
-#Navegacion{
-    a{
-      border: none;
-      border-radius: 10px;
-      color: white;
-      text-decoration: none;
-    }
-    #Init{
-      background: $gradient-blue;
-    }
-    #Init:hover{
-        #Init::after{
-            content: ">";
-        }
-    }
-    #Seccion1{
-      background: $gradient-mint;
-    }
-    #Seccion2{
-      background: $gradient-pink;
-    }
-    #Seccion3{
-      background: $gradient-green;
-    }
-    #Seccion4{
-      background: $gradient-orange;
-    }
-}
+
 
 .card{
     box-shadow: $shadow;
@@ -59,18 +32,3 @@
     }
 }
 
-.dark-mode{
-  
-  .index-back{
-    background-image: none !important;
-    background-color: $dark-body;
-    background-attachment: fixed;
-    background-size: cover;
-  }
-
-  .container{
-    background: $dark-container;
-    
-    color: white !important;
-  }
-}

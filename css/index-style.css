@@ -24,11 +24,21 @@ body {
   background-size: cover;
 }
 
+.section1-back nav {
+  background: -webkit-gradient(linear, left top, left bottom, from(#00CC66), color-stop(#00CC99), to(#00CCCC)) !important;
+  background: linear-gradient(#00CC66, #00CC99, #00CCCC) !important;
+}
+
 .section2-back {
   background-color: #f0f5ff;
   background-image: url(../resources/SeccionII.svg);
   background-attachment: fixed;
   background-size: cover;
+}
+
+.section2-back nav {
+  background: -webkit-gradient(linear, left top, left bottom, from(#FF3333), color-stop(#FF3366), to(#FF3399)) !important;
+  background: linear-gradient(#FF3333, #FF3366, #FF3399) !important;
 }
 
 .section3-back {
@@ -38,11 +48,21 @@ body {
   background-size: cover;
 }
 
+.section3-back nav {
+  background: -webkit-gradient(linear, left top, left bottom, from(#006600), color-stop(#339933), to(#00CC66)) !important;
+  background: linear-gradient(#006600, #339933, #00CC66) !important;
+}
+
 .section4-back {
   background-color: #f0f5ff;
   background-image: url(../resources/SeccionIV.svg);
   background-attachment: fixed;
   background-size: cover;
+}
+
+.section4-back nav {
+  background: -webkit-gradient(linear, left top, left bottom, from(#FF6633), color-stop(#FF9933), to(#FFCC33)) !important;
+  background: linear-gradient(#FF6633, #FF9933, #FFCC33) !important;
 }
 
 svg {
@@ -384,20 +404,29 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
-.dark-mode .index-back {
-  background-image: url(../resources/SeccionIII.svg) !important;
-  background-color: #261C2C;
-  background-attachment: fixed;
-  background-size: cover;
+.dark-mode {
+  background-color: #121313 !important;
+  /*.index-back{
+    
+    background-attachment: fixed;
+    background-size: cover;
+  }*/
 }
 
-.dark-mode body {
-  background-image: none;
-  background-color: #261C2C;
-}
-
-.dark-mode .container {
-  background: #3E2C41;
+.dark-mode .container, .dark-mode .card {
+  background: #1F1F1E !important;
+  -webkit-box-shadow: none;
+          box-shadow: none;
   color: white !important;
+}
+
+.dark-mode .table {
+  color: white;
+}
+
+footer {
+  background-color: #1F1F1E;
+  color: white;
+  padding: 5px;
 }
 /*# sourceMappingURL=index-style.css.map */

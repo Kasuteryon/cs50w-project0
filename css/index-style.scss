@@ -5,8 +5,8 @@
 $base-color: linear-gradient(#330066, #330099, #3300CC);
 $body-color: linear-gradient(#EDF3FF, #F0F5FF, #E6EFFF);
 
-$dark-body: #261C2C;
-$dark-container: #3E2C41;
+$dark-body: #121313;
+$dark-container: #1F1F1E;
 
 $shadow: rgba(136, 172, 243, 0.25) 0px 10px 30px, rgba(0, 0, 0, 0.03) 0px 1px 1px,
          rgba(47, 62, 96, 0.01) 0px 10px 20px, rgba(76, 102, 148, 0.13) 0px 1px 3px;
@@ -54,24 +54,40 @@ body{
   background-image: url(../resources/SeccionI.svg);
   background-attachment: fixed;
   background-size: cover;
+
+  nav{
+    background: linear-gradient(#00CC66, #00CC99, #00CCCC) !important;
+  }
 }
 .section2-back{
   background-color: #f0f5ff;
   background-image: url(../resources/SeccionII.svg);
   background-attachment: fixed;
   background-size: cover;
+
+  nav{
+    background: linear-gradient(#FF3333, #FF3366, #FF3399) !important;
+  }
 }
 .section3-back{
   background-color: #f0f5ff;
   background-image: url(../resources/SeccionIII.svg);
   background-attachment: fixed;
   background-size: cover;
+
+  nav{
+    background: linear-gradient(#006600 ,#339933, #00CC66) !important;
+  }
 }
 .section4-back{
   background-color: #f0f5ff;
   background-image: url(../resources/SeccionIV.svg);
   background-attachment: fixed;
   background-size: cover;
+
+  nav{
+    background: linear-gradient(#FF6633, #FF9933, #FFCC33) !important;
+  }
 }
 
 svg{
@@ -390,3 +406,29 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
+.dark-mode{
+
+  .container, .card{
+    background: $dark-container !important;
+    box-shadow: none;
+    color: white !important;
+  }
+
+  .table{
+    color: white;
+  }
+  
+  background-color: $dark-body !important;
+
+  /*.index-back{
+    
+    background-attachment: fixed;
+    background-size: cover;
+  }*/
+}
+
+footer{
+  background-color: $dark-container;
+  color: white;
+  padding: 5px;
+}

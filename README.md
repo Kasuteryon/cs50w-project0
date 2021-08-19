@@ -32,4 +32,4 @@ Curly Coder Blog es mi propuesta de Project 0 para WEB50Xni. Se trata de un blog
  * Scripts.js para:
   * Detectar la ubicación del viewport del dispositivo y así activar los estilos de aparación en ese instante
   * Detectar la ubicación en eje Y de la página para cambiar clase del navbar y ubicarla abajo en caso de pasar y > 300 o al inicio de ser y < 300
-  * Botón para devolver al inicio del documento
+  * Botón para cambiar a tema oscuro o claro
