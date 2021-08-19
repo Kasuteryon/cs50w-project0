@@ -58,3 +58,19 @@
         padding: 20px;
     }
 }
+
+.dark-mode{
+  
+  .index-back{
+    background-image: none !important;
+    background-color: $dark-body;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .container{
+    background: $dark-container;
+    
+    color: white !important;
+  }
+}
