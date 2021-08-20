@@ -1,4 +1,4 @@
-// SCROLL CHANGE NAVBAR
+// SCROLL CHANGE NAVBAR POSITION 7u7
 window.addEventListener('scroll', () =>{
   let nav = document.querySelector('nav');
 
@@ -17,7 +17,7 @@ window.addEventListener('scroll', () =>{
   
 });
 
-// SCROLLOING ANIMATION
+// DETETCS VIEWPORT FOR TRIGGER CSS ANIMATIONS ^u^
 
 let scroll = window.requestAnimationFrame || ((callback) =>{
     window.setTimeout(callback, 1000/6)
@@ -39,25 +39,26 @@ const loop = () => {
 
 loop();
 
-// CODE FROM STACKOVERFLOW, siempre salvando nuestras vidas los panas :)
-  function isElementInViewport(el) {
-    // special bonus for those using jQuery
-    if (typeof jQuery === "function" && el instanceof jQuery) {
-      el = el[0];
-    }
-    let rect = el.getBoundingClientRect();
-    return (
-      (rect.top <= 0
-        && rect.bottom >= 0)
-      ||
-      (rect.bottom >= (window.innerHeight || document.documentElement.clientHeight) &&
-        rect.top <= (window.innerHeight || document.documentElement.clientHeight))
-      ||
-      (rect.top >= 0 &&
-        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight))
-    );
+function isElementInViewport(el) {
+    
+  if (typeof jQuery === "function" && el instanceof jQuery) {
+    el = el[0];
   }
+  let rect = el.getBoundingClientRect();
 
+  return (
+    (rect.top <= 0
+      && rect.bottom >= 0)
+    ||
+    (rect.bottom >= (window.innerHeight || document.documentElement.clientHeight) &&
+      rect.top <= (window.innerHeight || document.documentElement.clientHeight))
+    ||
+    (rect.top >= 0 &&
+      rect.bottom <= (window.innerHeight || document.documentElement.clientHeight))
+  );
+}
+
+// APPLIES DARK MODE :3
 theme.addEventListener('click', () => {
   let body = document.body;
   body.classList.toggle("dark-mode");
