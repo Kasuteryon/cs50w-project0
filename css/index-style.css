@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5 {
   text-align: justify;
 }
 
-#Main .boton {
+#Main a {
   border: none;
   border-radius: 10px;
   color: white;
@@ -122,8 +122,8 @@ h1, h2, h3, h4, h5 {
 }
 
 #Main #No1 .boton:hover {
-  -webkit-box-shadow: #00CC66 0 0 5px 5px, #00CC99 10px 10px, #00CCCC 15px 15px, #00FFCC 20px 20px;
-          box-shadow: #00CC66 0 0 5px 5px, #00CC99 10px 10px, #00CCCC 15px 15px, #00FFCC 20px 20px;
+  background: -webkit-gradient(linear, left top, right top, from(#00FFCC), color-stop(#00CCCC), color-stop(#00CC99), to(#00CC66));
+  background: linear-gradient(to right, #00FFCC, #00CCCC, #00CC99, #00CC66);
 }
 
 #Main #No2 h1 {

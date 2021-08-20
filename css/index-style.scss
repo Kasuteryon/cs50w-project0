@@ -110,7 +110,7 @@ h1, h2, h3, h4, h5{
     h3, h4{
       text-align: justify;
     }
-    .boton{
+    a{
       border: none;
       border-radius: 10px;
       color: white;
@@ -141,7 +141,7 @@ h1, h2, h3, h4, h5{
       .boton:hover{
         //transition: 1s;
         //background: $gradient-mint-reverse;
-        box-shadow: $shadow-mint;
+        background: $gradient-mint-reverse;
         
       }
       

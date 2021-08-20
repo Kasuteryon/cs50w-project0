@@ -2,7 +2,7 @@
 
 ## Elaborado por Eduardo Castellón.
 
-Curly Coder Blog es mi propuesta de Project 0 para WEB50Xni. Se trata de un blog que funcione como guía sobre como comenzar en la programación móvil para aquellos que no conozcan nada y deseen comenzar o para aquellos quienes tienen nociones básicas pero aún así tengan cierta confusión a la hora de comenzar.
+Curly Coder Blog es mi propuesta de Project 0 para WEB50Xni. Se trata de un blog que funcione como guía sobre como comenzar en la programación móvil para aquellos que no conozcan nada y deseen comenzar o para aquellos quienes tienen nociones básicas pero aún así tengan cierta confusión a la hora de comenzar. Puedes cambiar a modo oscuro con solo tocar el togle en el navbar.
 
 
 ## Estructura y Descripción
